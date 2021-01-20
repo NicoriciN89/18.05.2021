@@ -1,0 +1,240 @@
+html {
+    animation: animation-3 20s infinite;
+}
+
+body {
+    margin: 0;
+
+
+    overflow: hidden;
+
+}
+
+.agd {
+    width: 100vw;
+    height: 100vh;
+
+    background-image: url(imagini_de_iarna_5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.agd .animation {
+    width: 50px;
+    height: 50px;
+    background: radial-gradient(darkorange, transparent);
+    left: 320px;
+    top: 390px;
+    position: absolute;
+    animation: animation-4;
+
+}
+
+
+
+.snow>.flake {
+    width: 20px;
+    height: 20px;
+    background-image: radial-gradient(white, transparent);
+    position: absolute;
+    top: -20px;
+    border-radius: 100%;
+
+
+
+}
+
+.snow .flake.small {
+    width: 12px;
+    width: 12px;
+    background-image: radial-gradient(white, transparent);
+
+}
+
+/* 1*/
+
+.snow .flake:nth-child(2n) {
+    animation: animetion-1 20s infinite;
+}
+
+.snow .flake:nth-child(1) {
+    left: 10px;
+    animation-delay: 13s;
+
+}
+
+.snow .flake:nth-child(2) {
+    left: 10%;
+    animation-delay: 15s;
+}
+
+.snow .flake:nth-child(3) {
+    left: 12%;
+    animation-delay: 14s;
+}
+
+.snow .flake:nth-child(4) {
+    left: 20%;
+    animation-delay: 7s;
+
+}
+
+.snow .flake:nth-child(5) {
+    left: 25%;
+    animation-delay: 12s;
+
+}
+
+.snow .flake:nth-child(6) {
+    left: 30%;
+    animation-delay: 10.5s;
+
+}
+
+.snow .flake:nth-child(7) {
+    left: 52%;
+    animation-delay: 6s;
+
+}
+
+.snow .flake:nth-child(8) {
+    left: 70%;
+    animation-delay: 4s;
+}
+
+.snow .flake:nth-child(9) {
+    left: 80%;
+    animation-delay: 1s;
+
+}
+
+.snow .flake:nth-child(10) {
+    left: 90%;
+    animation-delay: 10s;
+}
+
+/*2*/
+.snow .flake.small:nth-child(3n) {
+    animation: animetion-2 20s infinite;
+}
+
+.snow .flake.flake.small:nth-child(11) {
+    left: 40%;
+    animation-delay: 6.5s;
+}
+
+.snow .flake.flake.small:nth-child(12) {
+    left: 50%;
+    animation-delay: 0.5s;
+}
+
+.snow .flake.flake.small:nth-child(13) {
+    left: 45%;
+    animation-delay: 1.5s;
+}
+
+.snow .flake.flake.small:nth-child(14) {
+    left: 60%;
+    animation-delay: 2.5s;
+}
+
+.snow .flake.flake.small:nth-child(15) {
+    left: 80%;
+    animation-delay: 1.5s;
+}
+
+.snow .flake.flake.small:nth-child(16) {
+    left: 95%;
+    animation-delay: 4.5s;
+}
+
+.snow .flake.flake.small:nth-child(17) {
+    left: 65%;
+    animation-delay: 8s;
+}
+
+.snow .flake.flake.small:nth-child(18) {
+    left: 23%;
+    animation-delay: 4s;
+}
+
+.snow .flake.flake.small:nth-child(19) {
+    left: 15%;
+    animation-delay: 2.5s;
+}
+
+.snow .flake.flake.small:nth-child(20) {
+    left: 38%;
+    animation-delay: 4.5s;
+}
+
+@keyframes animetion-1 {
+    from {
+        top: 0%;
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0.5;
+    }
+
+    to {
+        top: 100%;
+        opacity: 0;
+    }
+}
+
+@keyframes animetion-2 {
+    from {
+        opacity: 1;
+    }
+
+    50% {
+        top: 95%;
+    }
+
+    to {
+        top: 95%;
+        opacity: 0;
+    }
+}
+
+@keyframes animation-3 {
+    from {
+        filter: grayscale(0%) brightness(110%);
+
+    }
+
+    50% {
+        filter: grayscale(80%) brightness(10%);
+
+    }
+
+    to {
+        filter: grayscale(0%) brightness(120%);
+    }
+}
+
+@keyframes animation-4 {
+    form {
+        opacity: 1;
+        
+        filter: contrast(200%);
+        ;
+    }
+
+    55% {
+        
+        opacity: 0.5;
+        filter: contrast(200%);
+    }
+
+    to {
+        
+        opacity: 1;
+        filter: contrast(200%);
+    }
+
+
+}
